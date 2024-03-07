@@ -3410,3 +3410,30 @@ input, select, textarea {
     }
 </style>
 
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Caption text */
+.caption {
+    position: absolute;
+    bottom: 20px; /* Adjust the value to move the caption up or down */
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Adjustments for small screens */
+@media screen and (max-width: 768px) {
+    .caption {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
